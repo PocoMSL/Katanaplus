@@ -1,0 +1,51 @@
+
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '6.0.+'
+}
+
+version = '1.0.0'
+group = 'com.example.katswords'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven {
+        name = "Modrinth"
+        url = uri("https://api.modrinth.com/maven")
+    }
+    maven {
+        name = "CurseMaven"
+        url = uri("https://cursemaven.com")
+    }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
+
+    // Create
+    implementation fg.deobf("com.simibubi.create:create-1.20.1:0.5.1.f") // example; replace with your exact version
+
+    // TFCMG / TFMG Building Blocks & Factory Must Grow are community mods.
+    // You'll need to put the exact coordinates/versions that you use here.
+    // implementation fg.deobf("com.yourgroup:tfmg:VERSION")
+    // implementation fg.deobf("com.yourgroup:tfmgbb:VERSION")
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.jar { manifest { attributes(['Specification-Title': 'Katana Plus', 'Specification-Vendor': 'You', 'Implementation-Title': project.name, 'Implementation-Version': project.version]) } }

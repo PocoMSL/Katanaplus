@@ -1,0 +1,1437 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:stick"
+  },
+  "transitionalItem": {
+    "item": "katswords:incomplete_katana"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "tfmg:heavy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "minecraft:charcoal"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "fluid": "tfmgbb:heavy_oil",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "tfmg:heavy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "minecraft:charcoal"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "fluid": "tfmgbb:heavy_oil",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "tfmg:heavy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "minecraft:charcoal"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "fluid": "tfmgbb:heavy_oil",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "tfmg:heavy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "minecraft:charcoal"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "fluid": "tfmgbb:heavy_oil",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "tfmg:heavy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "minecraft:charcoal"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "fluid": "tfmgbb:heavy_oil",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "tfmg:heavy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "minecraft:charcoal"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "fluid": "tfmgbb:heavy_oil",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "tfmg:heavy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "minecraft:charcoal"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "fluid": "tfmgbb:heavy_oil",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "tfmg:heavy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "minecraft:charcoal"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "fluid": "tfmgbb:heavy_oil",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "tfmg:heavy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "minecraft:charcoal"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "fluid": "tfmgbb:heavy_oil",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "tfmg:heavy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "item": "minecraft:charcoal"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        },
+        {
+          "fluid": "tfmgbb:heavy_oil",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    },
+    {
+      "type": "create:compacting",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ],
+      "results": [
+        {
+          "item": "katswords:incomplete_katana"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "katswords:katana"
+    }
+  ],
+  "loops": 1
+}
