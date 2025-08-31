@@ -75,7 +75,7 @@ jobs:
       run: test -f build/libs/*.jar
 
 - name: Publish to Modrinth
-  uses: modrinth/modrinth-action@v2.1.0
+  uses: modrinth/modrinth-upload-action@v1
   with:
     token: ${{ secrets.MODRINTH_TOKEN }}
     project_id: Jcl8pfJY
