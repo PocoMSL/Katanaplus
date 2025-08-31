@@ -10,77 +10,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set up Java
-      uses: actions/setup-java@v3
-      with:
-        distribution: 'temurin'
-        java-version: '17'
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
 
-    - name: Cache Gradle
-      uses: actions/cache@v3
-      with:
-        path: |
-          ~/.gradle/caches
-          ~/.gradle/wrapper
-        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+      - name: Cache Gradle
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
 
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
 
-    - name: Build with Gradle
-      run: ./gradlew build
+      - name: Build with Gradle
+        run: ./gradlew build
 
-    - name: Ensure artifact exists
-      run: test -f build/libs/*.jar
+      - name: Ensure artifact exists
+        run: test -f build/libs/*.jar
 
-   name: Build & Publish Forge Mod to Modrinth
-
-on:
-  push:
-    branches: [ main ]
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Set up Java
-      uses: actions/setup-java@v3
-      with:
-        distribution: 'temurin'
-        java-version: '17'
-
-    - name: Cache Gradle
-      uses: actions/cache@v3
-      with:
-        path: |
-          ~/.gradle/caches
-          ~/.gradle/wrapper
-        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
-
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
-
-    - name: Build with Gradle
-      run: ./gradlew build
-
-    - name: Ensure artifact exists
-      run: test -f build/libs/*.jar
-
-    - name: Publish to Modrinth
-      uses: cloudnode-pro/modrinth-publish@v2.1.3
-      with:
-       token: ${{ secrets.MODRINTH_TOKEN }}
-       project_id: Jcl8pfJY
-       version_number: ${{ github.ref_name }}
-       changelog: ${{ github.event.head_commit.message }}
-       loaders: forge
-       game_versions: 1.20.1
-       files: build/libs/*.jar
+      - name: Publish to Modrinth
+        uses: cloudnode-pro/modrinth-publish@v2.1.3
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          project: Jcl8pfJY
+          version: ${{ github.ref_name }}
+          changelog: ${{ github.event.head_commit.message }}
+          loaders: forge
+          game-versions: 1.20.1
+          files: build/libs/*.jar
