@@ -44,5 +44,5 @@ jobs:
           version: ${{ github.ref_name }}
           changelog: ${{ github.event.head_commit.message }}
           loaders: forge
-          game-versions: 1.20.1
+          game-versions: "1.20.1"
           files: build/libs/*.jar
