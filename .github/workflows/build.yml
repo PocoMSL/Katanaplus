@@ -37,7 +37,7 @@ jobs:
         run: test -f build/libs/*.jar
 
       - name: Upload artifact for other jobs
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: mod-jar
           path: build/libs/*.jar
@@ -58,7 +58,7 @@ jobs:
 
     steps:
       - name: Download built jar
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: mod-jar
           path: .
@@ -80,7 +80,7 @@ jobs:
 
     steps:
       - name: Download built jar
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: mod-jar
           path: .
