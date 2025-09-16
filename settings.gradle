@@ -1,1 +1,9 @@
-rootProject.name = 'KatanaPlus'
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { url = 'https://maven.minecraftforge.net' }
+        mavenCentral()
+    }
+}
+
+rootProject.name = "KatanaPlus"
