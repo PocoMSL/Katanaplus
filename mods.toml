@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)" # Forge für 1.20.1 ist Version 47.x
+license="MIT"
+
+[[mods]]
+modId="katanaplus"
+version="1.0.0"
+displayName="Katana Plus"
+description='''
+Ein Beispielmod, der Create voraussetzt.
+'''
+
+# Forge selbst
+[[dependencies.katanaplus]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+# Minecraft
+[[dependencies.katanaplus]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+# Create
+[[dependencies.katanaplus]]
+    modId="create"
+    mandatory=true
+    versionRange="[0.5.1.f,0.6.0)"  # Für 1.20.1
+    ordering="NONE"
+    side="BOTH"

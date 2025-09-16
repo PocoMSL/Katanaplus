@@ -10,16 +10,16 @@ version = '1.0.0'
 group = 'com.example.katswords'
 
 repositories {
-    mavenLocal()
-    mavenCentral()
-    maven {
-        name = "Modrinth"
-        url = uri("https://api.modrinth.com/maven")
-    }
-    maven {
-        name = "CurseMaven"
-        url = uri("https://cursemaven.com")
-    }
+    maven { url = "https://maven.createmod.net" } // Create, Ponder, Flywheel
+    maven { url = "https://maven.ithundxr.dev/snapshots" } // Registrate
+}
+
+dependencies {
+    implementation("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") { transitive = false }
+    implementation("net.createmod.ponder:Ponder-NeoForge-${minecraft_version}:${ponder_version}")
+    compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}")
+    runtimeOnly("dev.engine-room.flywheel:flywheel-neoforge-${minecraft_version}:${flywheel_version}")
+    implementation("com.tterrag.registrate:Registrate:${registrate_version}")
 }
 
 java {
@@ -35,11 +35,14 @@ minecraft {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
 
-    // Create
-    implementation fg.deobf("com.simibubi.create:create-1.20.1:0.5.1.f") // example; replace with your exact version
+    // Haupt-Mod: Create
+    implementation fg.deobf("com.simibubi.create:create-1.20.1:0.5.1.f")
 
-    // TFCMG / TFMG Building Blocks & Factory Must Grow are community mods.
-    // You'll need to put the exact coordinates/versions that you use here.
+    // Beispiel für Add-ons – ersetze mit den genauen Versionsnummern
+    implementation fg.deobf("com.simibubi.create:curios-create:1.20.1-0.5.1")       // Add-on 1
+    implementation fg.deobf("com.simibubi.create:extracreate:1.20.1-0.5.1")         // Add-on 2
+
+    // TFCMG / TFMG Building Blocks & Factory Must Grow sind optional
     // implementation fg.deobf("com.yourgroup:tfmg:VERSION")
     // implementation fg.deobf("com.yourgroup:tfmgbb:VERSION")
 }
@@ -48,4 +51,13 @@ tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
 }
 
-tasks.jar { manifest { attributes(['Specification-Title': 'Katana Plus', 'Specification-Vendor': 'You', 'Implementation-Title': project.name, 'Implementation-Version': project.version]) } }
+tasks.jar { 
+    manifest { 
+        attributes([
+            'Specification-Title': 'Katana Plus', 
+            'Specification-Vendor': 'You', 
+            'Implementation-Title': project.name, 
+            'Implementation-Version': project.version
+        ]) 
+    } 
+}
