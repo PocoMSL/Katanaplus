@@ -10,15 +10,16 @@ version = '1.0.0'
 group = 'com.example.katswords'
 
 repositories {
-    maven { url = "https://maven.createmod.net" }        // Create, Flywheel, Ponder
+    maven { url = "https://maven.createmod.net" }          // Create, Flywheel, Ponder
     maven { url = "https://maven.ithundxr.dev/snapshots" } // Registrate
-    maven { url = "https://maven.minecraftforge.net" }   // Forge
+    maven { url = "https://maven.engine-room.dev/releases" } // Flywheel
+    maven { url = "https://maven.minecraftforge.net" }     // Forge
     mavenCentral()
 }
 
 dependencies {
     // Forge
-    minecraft "net.minecraftforge:forge:1.20.1-47.3.0"
+    minecraft "net.minecraftforge:forge:${minecraft_version}-47.3.0"
 
     // Create (slim = ohne Transitive)
     implementation("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") {
@@ -26,11 +27,11 @@ dependencies {
     }
 
     // Ponder
-    implementation("net.createmod.ponder:Ponder-NeoForge-${minecraft_version}:${ponder_version}")
+    implementation("net.createmod.ponder:Ponder-Forge-${minecraft_version}:${ponder_version}")
 
-    // Flywheel (API + Runtime)
-    compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}")
-    runtimeOnly("dev.engine-room.flywheel:flywheel-neoforge-${minecraft_version}:${flywheel_version}")
+    // Flywheel (Forge API + Runtime)
+    compileOnly("dev.engine-room.flywheel:flywheel-forge-api-${minecraft_version}:${flywheel_version}")
+    runtimeOnly("dev.engine-room.flywheel:flywheel-forge-${minecraft_version}:${flywheel_version}")
 
     // Registrate
     implementation("com.tterrag.registrate:Registrate:${registrate_version}")
