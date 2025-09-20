@@ -10,10 +10,19 @@ version = '1.0.0'
 group = 'com.example.katswords'
 
 repositories {
-    maven { url = "https://maven.createmod.net" }          // Create, Flywheel, Ponder
-    maven { url = "https://maven.ithundxr.dev/snapshots" } // Registrate
-    maven { url = "https://maven.engine-room.dev/releases" } // Flywheel
-    maven { url = "https://maven.minecraftforge.net" }     // Forge
+    // Create, Flywheel, Ponder
+    maven { url = "https://maven.createmod.net" }
+
+    // Registrate (offiziell bei ithundxr)
+    maven { url = "https://maven.ithundxr.dev/snapshots" }
+
+    // Flywheel (Engine Room)
+    maven { url = "https://maven.engine-room.dev/releases" }
+
+    // Forge
+    maven { url = "https://maven.minecraftforge.net" }
+
+    // Standard
     mavenCentral()
 }
 
@@ -21,12 +30,12 @@ dependencies {
     // Forge
     minecraft "net.minecraftforge:forge:${minecraft_version}-47.3.0"
 
-    // Create (slim = ohne Transitive)
+    // Create (slim = ohne transitive Dependencies)
     implementation("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") {
         transitive = false
     }
 
-    // Ponder
+    // Ponder (Forge-Variante)
     implementation("net.createmod.ponder:Ponder-Forge-${minecraft_version}:${ponder_version}")
 
     // Flywheel (Forge API + Runtime)
